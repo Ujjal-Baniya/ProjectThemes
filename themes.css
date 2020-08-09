@@ -1,0 +1,53 @@
+#main{
+    height: 100%;	
+    width: 100%;
+    text-align: center;
+    
+}
+#imp{
+    padding-top: 20%;
+    color: whitesmoke;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background: url("bbb.jpg") no-repeat center center fixed;
+   }
+
+#content{
+    font-family: cursive;
+    color: yellowgreen;
+    font-size: 20px;
+}
+h1{
+    margin-top: 0px;
+    color:royalblue;
+}
+
+input{
+    background: transparent;
+    border: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.center{
+    text-align: center;
+    list-style-position:inside ;
+}
+
+#picture{
+    padding-top: 3%;
+    width: 40%;
+    height: auto;
+}
+#text{
+    font-family: cursive;
+    height: auto;
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
