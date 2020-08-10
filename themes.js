@@ -1,5 +1,4 @@
 var input = document.querySelector("input");
-var result = document.querySelector("#result")
 var main = document.querySelector("#main")
 var choice;
 input.addEventListener("change", function(){
@@ -15,7 +14,7 @@ input.addEventListener("change", function(){
 })
 
 function AboutMe(){
-    main.innerHTML = "<img id=\"picture\" src=\"dada.jpg\"> <p id=\"text\"><strong>Hello there!</strong><br><span id=\"lol\"></span></p>"
+    main.innerHTML = "<div class=\"result\"><img id=\"picture\" src=\"dada.jpg\"> <p id=\"text\"><strong>Hello there!</strong><br><span id=\"lol\"></span></p></div>"
     load()
 }
 

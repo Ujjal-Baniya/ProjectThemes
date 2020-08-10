@@ -41,6 +41,7 @@ input{
     padding-top: 3%;
     width: 40%;
     height: auto;
+    animation: all 9s;
 }
 #text{
     font-family: cursive;
@@ -50,4 +51,10 @@ input{
     font-size: 30px;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.result{
+    height: 100%;	
+    width: 100%;
+    background: blue;
 }
